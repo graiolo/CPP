@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: graiolo <marvin@42.fr>                     +#+  +:+       +#+         #
+#    By: graiolo <graiolo@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/16 17:46:54 by graiolo           #+#    #+#              #
-#    Updated: 2023/07/16 20:10:08 by graiolo          ###   ########.fr        #
+#    Updated: 2023/08/27 14:23:41 by graiolo          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC			= c++
 FLAGS		= -std=c++98 -Wall -Wextra -Werror
 RM			= rm -rf
 
-SRC			= main.cpp zombieHorde.cpp Zombie.cpp
+SRC			= main.cpp ZombieHorde.cpp Zombie.cpp
 
 OBJ			= $(SRC:.cpp=.o)
 

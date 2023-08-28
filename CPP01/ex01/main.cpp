@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: graiolo <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: graiolo <graiolo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/16 17:30:02 by graiolo           #+#    #+#             */
-/*   Updated: 2023/07/17 16:13:51 by graiolo          ###   ########.fr       */
+/*   Updated: 2023/08/27 14:33:44 by graiolo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int main( void )
 	horde = zombieHorde(std::atoi(nbr.c_str()), name);
 	for (int i = 0; i < std::atoi(nbr.c_str()); i++)
 		horde[i].announce(	);
-	
+
 	delete[	] horde;
 
 	return 0;

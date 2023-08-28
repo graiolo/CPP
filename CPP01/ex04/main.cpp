@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: graiolo <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: graiolo <graiolo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/18 23:32:22 by graiolo           #+#    #+#             */
-/*   Updated: 2023/07/19 11:40:54 by graiolo          ###   ########.fr       */
+/*   Updated: 2023/08/25 23:41:22 by graiolo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int main(int argc, char **argv)
 	if (argc != 4)
 	{
 		std::cerr << "invalid number of argument" << std::endl;
+		std::cout << "[file name] [s1] [s2]" << std::endl;
 		return (1);
 	}
 	
