@@ -17,11 +17,11 @@
 
 class ClapTrap {
     protected:
-    public:
         std::string     _name;
         unsigned int    _hitPoints;
         unsigned int    _energyPoints;
         unsigned int    _attackDamage;
+    public:
         ClapTrap( const std::string &);
         ClapTrap( ClapTrap &);
         ~ClapTrap();
