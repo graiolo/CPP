@@ -4,7 +4,6 @@ Base::~Base(void) { };
 
 Base*	generate(void) {
 	int	rnd = rand( ) % 3;
-
 	switch (rnd)
 	{
 		case (0):
