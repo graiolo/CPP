@@ -41,7 +41,7 @@ void PhoneBook::search ( void )
 	}
 	std::cout << "\033[1;37m";
 	std::cout << "---------------------------------------------" << std::endl;
-	std::cout << "|  INDEX.  |FIRST NAME|FIRST NAME| NICKNAME |" << std::endl;
+	std::cout << "|  INDEX.  |FIRST NAME|LAST NAME | NICKNAME |" << std::endl;
     std::cout << "---------------------------------------------" << std::endl;
 	std::cout << "\033[0m";
 	for (int i = 0; i < this->_max; i++)
